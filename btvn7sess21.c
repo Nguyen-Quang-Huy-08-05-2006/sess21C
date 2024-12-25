@@ -14,7 +14,7 @@ int main(){
 	int line;
 	printf("nhap so luong sinh vien: ");
 	scanf("%d",&line);
-    student = (SV *)malloc(line * sizeof(SV));
+	student = (SV *)malloc(line * sizeof(SV));
 	getchar();
 	for(int i=0;i<line;i++){
 		printf("sinh vien thu [%d]: ",i+1);
