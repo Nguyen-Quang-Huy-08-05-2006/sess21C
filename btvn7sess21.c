@@ -32,7 +32,7 @@ int main(){
 		fprintf("[ID: %s] [name: %s] [age: %d].\n",student[i].id,student[i].name,student[i].age);
 	}
 	fclose(file);
-    free(student);
+	free(student);
 	return 0;
 }
 
